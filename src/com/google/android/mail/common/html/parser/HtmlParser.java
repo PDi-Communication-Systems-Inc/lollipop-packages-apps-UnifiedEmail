@@ -1116,7 +1116,7 @@ public class HtmlParser {
   //------------------------------------------------------------------------
   public static void main(String[] args) throws IOException {
 
-    DEBUG = true;
+    DEBUG = false;
 
     String html = new String(ByteStreams.toByteArray(System.in), "ISO-8859-1");
 
